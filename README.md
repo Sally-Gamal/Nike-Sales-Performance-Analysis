@@ -7,7 +7,7 @@
 ---
 
 ## 2. 📝 Executive Summary
-This project delivers a data-driven analysis of **Nike’s product performance and pricing dynamics** across a dataset of **643 footwear products**. The primary goal is to evaluate the effectiveness of pricing strategies, analyze customer engagement through ratings and reviews, and provide strategic recommendations to optimize retail positioning and brand health.
+This project delivers a data-driven analysis of **Nike’s product performance and pricing dynamics** across a dataset of **643 footwear products**. The primary goal is to evaluate the effectiveness of pricing strategies, analyze customer engagement through ratings and reviews, and provide strategic recommendations to optimize retail positioning.
 
 ### 📈 Key Performance Indicators (KPIs):
 * **Total Products Analyzed:** 643 Nike Items
@@ -21,12 +21,12 @@ This project delivers a data-driven analysis of **Nike’s product performance a
 ## 3. 🔍 Deep-Dive Insights (Analytical Findings)
 
 ### A. Pricing Strategy & Discount Impact
-* **The Discount Lever:** Analysis shows that products with a significant gap between listing and sale prices showed a **35% increase** in review volume, indicating that discounts are a primary driver for consumer engagement.
+* **The Discount Lever:** Analysis shows that products with a significant gap between listing and sale prices showed a **35% increase** in review volume, indicating that discounts are a primary driver for engagement.
 * **Premium Integrity:** High-tier products (priced above $15k) maintain consistent review levels, suggesting that Nike's premium segment is less sensitive to price fluctuations.
 
 ### B. Customer Sentiment & Product Performance
 * **Rating Correlation:** Analysis reveals that products featuring "Premium Materials" (like Air Force 1 & Air Max series) secure higher average ratings compared to standard models.
-* **The Quality Gap:** Identified a segment of "High-Volume, Low-Rating" products, where high sales do not translate to customer satisfaction, marking a risk for long-term loyalty.
+* **The Quality Gap:** Identified a segment of "High-Volume, Low-Rating" products, where high sales do not translate to customer satisfaction.
 
 ### C. Category & Revenue Drivers
 * **Top Performers:** The **$7k - $12k price bracket** represents the "Golden Mean" for both high sales volume and positive customer feedback.
@@ -46,7 +46,7 @@ To ensure the highest standard of data integrity, I implemented the following:
 ## 💡 5. Strategic Recommendations for Nike
 1. **Dynamic Discounting:** Implement a data-driven discount model for low-rating items to accelerate stock turnover and minimize holding costs.
 2. **Quality Loop Integration:** Align manufacturing quality checks with "Review Insights" to address recurring issues in high-volume footwear lines.
-3. **Strategic Marketing:** Reallocate advertising spend toward the **"Star Segment"** (Products with 4+ ratings in the $10k+ bracket) to reinforce Nike’s premium market position.
+3. **Strategic Marketing:** Reallocate advertising spend toward the **"Star Segment"** (Products with 4+ ratings in the $10k+ bracket).
 
 ---
 
