@@ -2,7 +2,7 @@
 
 ## 1. 📊 Interactive Dashboard Preview
 ![Nike Sales Dashboard](nike_shoes_sales.jpg)
-![Nike Strategy Insights](nike_strategy.jpg)
+![Nike Strategy Insights](Nike_Strategy.jpg)
 
 ---
 
