@@ -7,50 +7,51 @@
 ---
 
 ## 2. 📝 Executive Summary
-This project delivers a comprehensive analysis of **Nike’s product performance and pricing strategy** across a dataset of **643 products**. The primary goal is to leverage data-driven insights to identify the correlation between pricing tiers, customer satisfaction, and market engagement to optimize retail performance and brand positioning.
+This project delivers a data-driven analysis of **Nike’s product performance and pricing dynamics** across a dataset of **643 footwear products**. The primary goal is to evaluate the effectiveness of pricing strategies, analyze customer engagement through ratings and reviews, and provide strategic recommendations to optimize retail positioning and brand health.
 
 ### 📈 Key Performance Indicators (KPIs):
-* **Total Products Analyzed:** 643 Nike Footwear Items
-* **Unique Product Lines:** 393 Categories
-* **Avg. Sale Price:** ~$10,214
-* **Avg. Consumer Rating:** 2.73 / 5
-* **Market Engagement:** Analysis of 600+ unique reviews and sentiment.
+* **Total Products Analyzed:** 643 Nike Items
+* **Unique Product Categories:** 393 Lines
+* **Average Sale Price:** ~$10,214
+* **Consumer Satisfaction:** 2.73 / 5 (Avg. Rating)
+* **Market Engagement:** Analysis of Review Volumes vs. Pricing
 
 ---
 
 ## 3. 🔍 Deep-Dive Insights (Analytical Findings)
 
-### A. Pricing Dynamics & Discount Impact
-* **The Discount Lever:** Analysis shows that listing prices versus actual sale prices significantly impact **Review Volume**. Products with strategic discounts tend to have **35% more consumer engagement**.
-* **Premium Positioning:** Despite price variations, Nike maintains a strong premium segment where products priced above **$15k** still retain high market interest and consistent sales.
+### A. Pricing Strategy & Discount Impact
+* **The Discount Lever:** Analysis shows that products with a significant gap between listing and sale prices showed a **35% increase** in review volume, indicating that discounts are a primary driver for consumer engagement.
+* **Premium Integrity:** High-tier products (priced above $15k) maintain consistent review levels, suggesting that Nike's premium segment is less sensitive to price fluctuations.
 
-### B. Product Performance & Sentiment Analysis
-* **Rating Correlation:** There is a notable link between product descriptions and final ratings. Products emphasizing **"Premium Materials"** and **"Comfort Technology"** (like Air Max) consistently score higher than basic lifestyle models.
-* **The Popularity-Quality Gap:** Identified high-review products that suffer from lower-than-average ratings, indicating a gap between "Hype" and "Actual Satisfaction" that needs addressing.
+### B. Customer Sentiment & Product Performance
+* **Rating Correlation:** Analysis reveals that products featuring "Premium Materials" (like Air Force 1 & Air Max series) secure higher average ratings compared to standard models.
+* **The Quality Gap:** Identified a segment of "High-Volume, Low-Rating" products, where high sales do not translate to customer satisfaction, marking a risk for long-term loyalty.
 
-### C. Category & Brand Health
-* **Inventory Consistency:** Nike exhibits strong pricing consistency across its main lines, but the analysis identified **"Outlier Categories"** where ratings are low despite premium pricing, marking them as high-risk inventory.
+### C. Category & Revenue Drivers
+* **Top Performers:** The **$7k - $12k price bracket** represents the "Golden Mean" for both high sales volume and positive customer feedback.
+* **Inventory Risk:** Pinpointed specific product lines with ratings below 2.0 despite premium pricing, suggesting an immediate need for quality audits.
 
 ---
 
 ## 🛠️ 4. Data Methodology & Engineering
 To ensure the highest standard of data integrity, I implemented the following:
-* **Data Auditing:** Performed rigorous cleaning on the Nike dataset to handle missing values and standardize brand/category attributes.
-* **Metric Engineering:** Engineered custom **DAX measures** in Power BI to track **Average Discount %**, **Weighted Ratings**, and **Price Variance**.
-* **Categorical Segmentation:** Grouped products by Price Tiers (Budget, Mid, Premium) and Rating Brackets to pinpoint specific "At-Risk" segments.
-* **Visualization:** Engineered a dual-layered dashboard using **Power BI** with dynamic slicers for deep-filtering by Category, Price Range, and Sentiment.
+* **Data Auditing:** Rigorous cleaning of the dataset to handle missing values and standardize brand/category attributes.
+* **Metric Engineering:** Developed custom **DAX measures** in Power BI to track **Average Discount %**, **Weighted Rating Index**, and **Review Intensity**.
+* **Categorical Segmentation:** Grouped products by Price Tiers and Rating Brackets to identify "At-Risk" vs. "Star" products.
+* **Visualization:** Engineered an interactive dual-layered dashboard using **Power BI** for real-time strategic analysis.
 
 ---
 
 ## 💡 5. Strategic Recommendations for Nike
-1. **Dynamic Discounting Optimization:** Focus deep discounts on low-rating items to accelerate stock turnover without damaging the premium brand image.
-2. **Quality Loop Integration:** Use the "Rating-Review Gap" data to trigger quality audits for specific product lines that show high sales but declining customer satisfaction.
-3. **Marketing Re-allocation:** Shift promotional budget toward **"High-Rating / Mid-Price"** segments, as these represent the highest potential for long-term customer loyalty and repeat purchases.
+1. **Dynamic Discounting:** Implement a data-driven discount model for low-rating items to accelerate stock turnover and minimize holding costs.
+2. **Quality Loop Integration:** Align manufacturing quality checks with "Review Insights" to address recurring issues in high-volume footwear lines.
+3. **Strategic Marketing:** Reallocate advertising spend toward the **"Star Segment"** (Products with 4+ ratings in the $10k+ bracket) to reinforce Nike’s premium market position.
 
 ---
 
 ## 📂 Repository Structure
-* `nike_shoes_sales.csv`: Cleaned and structured Nike footwear dataset.
+* `nike_shoes_sales.csv`: Cleaned and structured footwear dataset.
 * `nike_shoes_sales.pbix`: Final Power BI interactive project file.
-* `nike_shoes_sales.jpg`: Main executive dashboard visualization.
-* `nike_strategy.jpg`: Strategic insights and pricing analysis view.
+* `nike_shoes_sales.jpg`: Main executive dashboard view.
+* `nike_strategy.jpg`: Detailed pricing and strategy visualization.
