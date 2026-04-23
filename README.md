@@ -21,16 +21,12 @@ This project delivers a data-driven analysis of **Nike’s product performance a
 ## 3. 🔍 Deep-Dive Insights (Analytical Findings)
 
 ### A. Pricing Strategy & Discount Impact
-* **The Discount Lever:** Analysis shows that products with a significant gap between listing and sale prices showed a **35% increase** in review volume, indicating that discounts are a primary driver for engagement.
+* **The Discount Lever:** Products with a significant gap between listing and sale prices showed a **35% increase** in review volume, indicating that discounts are a primary driver for engagement.
 * **Premium Integrity:** High-tier products (priced above $15k) maintain consistent review levels, suggesting that Nike's premium segment is less sensitive to price fluctuations.
 
 ### B. Customer Sentiment & Product Performance
 * **Rating Correlation:** Analysis reveals that products featuring "Premium Materials" (like Air Force 1 & Air Max series) secure higher average ratings compared to standard models.
 * **The Quality Gap:** Identified a segment of "High-Volume, Low-Rating" products, where high sales do not translate to customer satisfaction.
-
-### C. Category & Revenue Drivers
-* **Top Performers:** The **$7k - $12k price bracket** represents the "Golden Mean" for both high sales volume and positive customer feedback.
-* **Inventory Risk:** Pinpointed specific product lines with ratings below 2.0 despite premium pricing, suggesting an immediate need for quality audits.
 
 ---
 
@@ -38,7 +34,6 @@ This project delivers a data-driven analysis of **Nike’s product performance a
 To ensure the highest standard of data integrity, I implemented the following:
 * **Data Auditing:** Rigorous cleaning of the dataset to handle missing values and standardize brand/category attributes.
 * **Metric Engineering:** Developed custom **DAX measures** in Power BI to track **Average Discount %**, **Weighted Rating Index**, and **Review Intensity**.
-* **Categorical Segmentation:** Grouped products by Price Tiers and Rating Brackets to identify "At-Risk" vs. "Star" products.
 * **Visualization:** Engineered an interactive dual-layered dashboard using **Power BI** for real-time strategic analysis.
 
 ---
